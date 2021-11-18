@@ -1,7 +1,6 @@
 from random import randrange
 
 wylosowanaLiczba = randrange(1,11)
-print(wylosowanaLiczba)
 graAktywna = True
 
 licznikProb = 0
