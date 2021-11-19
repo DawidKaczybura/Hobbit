@@ -1,4 +1,4 @@
-print("Siema")
+#print("Siema")
 
 a1 = 5
 a2 = 6
