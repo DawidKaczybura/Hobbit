@@ -19,3 +19,5 @@ print(srednia)
 
 
 print(oceny.count(5))
+
+print("siemaneczko")
