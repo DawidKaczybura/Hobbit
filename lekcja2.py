@@ -20,5 +20,6 @@ while graAktywna == True:
 
 
 
+
 print ("GRATULACJE KONIEC GRY")
 print ("Zgadles w " + str(licznikProb) + " probach")
