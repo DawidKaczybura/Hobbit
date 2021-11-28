@@ -16,8 +16,10 @@ print(sum(oceny))
 
 srednia = sumaocen/len(oceny)
 print(srednia)
-
+print(sumaocen/len(oceny))
 
 print(oceny.count(5))
+
+#print(count(oceny)) #dlaczego musi być tak jak powyżej
 
 print("siemaneczko")
