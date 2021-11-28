@@ -14,9 +14,8 @@ while graAktywna == True:
     
     if(liczbaGracza == wylosowanaLiczba):
         
-        print("Wygrales")
+        print("WYGRAŁEŚ GRATULACJĘ")
         
-        print ("GRATULACJE KONIEC GRY")
         print ("Zgadles w " + str(licznikProb) + " probach")
         jeszczeRaz = int(input("Czy chcesz zagrać jeszcze raz YES(1) or NO(2) ???"))
         if(jeszczeRaz == 1):
@@ -24,7 +23,8 @@ while graAktywna == True:
             licznikProb = 0
             wylosowanaLiczba = randrange(1,11)
         else:
-            print("Dzięki za grę, mam nadzieję że znów kiedyś pogramy")
             graAktywna = False
     else: 
         print("Przegrales, spróbuj ponownie.")
+
+print("Dzięki za grę, mam nadzieję że znów kiedyś pogramy :)")
