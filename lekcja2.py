@@ -10,7 +10,7 @@ while graAktywna == True:
     
     print(wylosowanaLiczba)
     licznikProb = licznikProb + 1
-    liczbaGracza = int(input("Podaj liczbe:"))
+    liczbaGracza = int(input("Podaj liczbe:")) #czemu to się wyświetla bez printa
     
     if(liczbaGracza == wylosowanaLiczba):
         
