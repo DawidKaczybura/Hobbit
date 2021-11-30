@@ -39,12 +39,12 @@ while status == True:
     if (liczba6 == liczbaGracza6):
         poprawne = poprawne + 1
 
-    print("Wylosowane liczby: " + str(losowanie))
-    print("Twoje liczby:      " + str(liczbyGraczaAll))
-    print("Zgadłeś " + str(poprawne) + " liczby")
+        print("Wylosowane liczby: " + str(losowanie))
+        print("Twoje liczby:      " + str(liczbyGraczaAll))
+        print("Zgadłeś " + str(poprawne) + " liczby")
 
-    jeszczeRaz = int(input("Chcesz zagrać jeszcze raz? YES(1) NO(2): "))
-        if jeszczeRaz == 1
+        jeszczeRaz = int(input("Chcesz zagrać jeszcze raz? YES(1) NO(2): "))
+        if(jeszczeRaz == 1):
            poprawne = 0
         else:
             status = False 
