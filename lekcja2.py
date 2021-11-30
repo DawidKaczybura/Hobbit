@@ -16,7 +16,7 @@ while graAktywna == True:
         
         print("WYGRAŁEŚ GRATULACJĘ")
         
-        print ("Zgadles w " + str(licznikProb) + " probach")
+        print ("Zgadles w " + str(licznikProb) + " probach") #czymu str a nie np. int??
         jeszczeRaz = int(input("Czy chcesz zagrać jeszcze raz YES(1) or NO(2) ???"))
         if(jeszczeRaz == 1):
             #graAktywna = True #dlaczego to tu musi być?? jak było tylko to..
