@@ -20,8 +20,10 @@ liczbyGraczaAll = liczbaGracza1,liczbaGracza2,liczbaGracza3,liczbaGracza4,liczba
 
 poprawne = 0
 
-if liczba1 == liczbaGracza1
+if (liczba1 == liczbaGracza1):
     poprawne = poprawne + 1
+else:
+    print("dupa")
 if liczba2 == liczbaGracza2
     poprawne = poprawne + 1
 if liczba3 == liczbaGracza3
