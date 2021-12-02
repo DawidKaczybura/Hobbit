@@ -38,16 +38,41 @@ while status == True:
         poprawne = poprawne + 1
     if (liczba6 == liczbaGracza6):
         poprawne = poprawne + 1
-
         print("Wylosowane liczby: " + str(losowanie))
         print("Twoje liczby:      " + str(liczbyGraczaAll))
         print("Zgadłeś " + str(poprawne) + " liczby")
 
         jeszczeRaz = int(input("Chcesz zagrać jeszcze raz? YES(1) NO(2): "))
         if(jeszczeRaz == 1):
-           poprawne = 0
+            poprawne = 0
+            status = True
+        else:
+            status = False 
+    else:
+        print("Wylosowane liczby: " + str(losowanie))
+        print("Twoje liczby:      " + str(liczbyGraczaAll))
+        print("Zgadłeś " + str(poprawne) + " liczby")
+
+        jeszczeRaz = int(input("Chcesz zagrać jeszcze raz? YES(1) NO(2): "))
+        if(jeszczeRaz == 1):
+            poprawne = 0
+            status = True
         else:
             status = False 
 
-    else:
-        print("KONIEC GRY")
+
+
+
+#print("Wylosowane liczby: " + str(losowanie))
+#print("Twoje liczby:      " + str(liczbyGraczaAll))
+#print("Zgadłeś " + str(poprawne) + " liczby")
+
+#jeszczeRaz = int(input("Chcesz zagrać jeszcze raz? YES(1) NO(2): "))
+#if(jeszczeRaz == 1):
+    #poprawne = 0
+    #status = True
+#else:
+    #status = False 
+
+
+print("KONIEC GRY")
