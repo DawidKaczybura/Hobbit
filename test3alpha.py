@@ -52,8 +52,10 @@ while status == True:
             if(jeszczeRaz == 1):
                 poprawne = 0
                 status = True
+                patent = False #wymyśliłem :)
             else:
-                status = False 
+                status = False
+                patent = False #wymyśliłem :)
 
 
 
