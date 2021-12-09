@@ -38,7 +38,7 @@ while status == True:
         poprawne = poprawne + 1
     if (liczba6 == liczbaGracza6):
         poprawne = poprawne + 1
-        
+        #czy można od tąd pominąć if ?? albo zrobić tak żeby "jedno" było i pod if i else?
         print("Wylosowane liczby: " + str(losowanie))
         print("Twoje liczby:      " + str(liczbyGraczaAll))
         print("Zgadłeś " + str(poprawne) + " liczby")
