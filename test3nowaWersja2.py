@@ -6,19 +6,14 @@ tablica = [1,2,3,4,5,6,7,8,9]
 
 while status == True:
     losowanie = []
-    losowanie.append(random.choice(tablica))
-    tablica.remove(losowanie[0]) #pozycja 0 w liście 
-    losowanie.append(random.choice(tablica))
-    tablica.remove(losowanie[1])
-    losowanie.append(random.choice(tablica))
-    tablica.remove(losowanie[2])
-    losowanie.append(random.choice(tablica))
-    tablica.remove(losowanie[3])
-    losowanie.append(random.choice(tablica))
-    tablica.remove(losowanie[4])
-    losowanie.append(random.choice(tablica))
-    tablica.remove(losowanie[5])
 
+    #for x in range(6):
+        #print(x)
+
+    for x in range(6):
+        losowanie.append(random.choice(tablica))
+        tablica.remove(losowanie[x]) #pozycja x - który numer komórki w tablicy losowanie
+    
     #losowanie = liczba1,liczba2,liczba3,liczba4,liczba5,liczba6
 
     liczbaGracza1 = int(input("Wprowadz liczbę pierwszą: "))
@@ -32,19 +27,10 @@ while status == True:
 
 
 
+    for x in range(6):
+        if (losowanie[x] in liczbyGraczaAll):
+            poprawne = poprawne + 1
 
-    if (losowanie[0] in liczbyGraczaAll):
-        poprawne = poprawne + 1
-    if (losowanie[1] in liczbyGraczaAll):
-        poprawne = poprawne + 1
-    if (losowanie[2] in liczbyGraczaAll):
-        poprawne = poprawne + 1
-    if (losowanie[3] in liczbyGraczaAll):
-        poprawne = poprawne + 1
-    if (losowanie[4] in liczbyGraczaAll):
-        poprawne = poprawne + 1
-    if (losowanie[5] in liczbyGraczaAll):
-        poprawne = poprawne + 1
     
     print("Wylosowane liczby: " + str(losowanie))
     print("Twoje liczby:      " + str(liczbyGraczaAll))
