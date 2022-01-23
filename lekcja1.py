@@ -22,7 +22,7 @@ print(oceny.count(5))
 
 imie = "MICHAL"
 print(len(imie))
-print(count(imie))
+#print(count(imie))
 #print(count(oceny)) #dlaczego musi być tak jak powyżej
 
 print("siemaneczko")
